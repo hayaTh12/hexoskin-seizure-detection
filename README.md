@@ -63,10 +63,7 @@ Training uses **nested cross-validation** (7 outer folds × 6 inner folds) with 
 │   ├── data_loader.py             # Dataset builder (X, y, groups)
 │   ├── Multiple_model_training.py # Nested CV training & evaluation
 │   └── config.py                  # All paths and hyperparameters
-└── models/15s/
-    ├── model.joblib               # Trained XGBoost + FiringWrapper
-    ├── feature_names.json         # Feature list for inference
-    └── metadata.json              # Training metadata
+└── models/15s/                    # Trained models not included
 ```
 
 ---
